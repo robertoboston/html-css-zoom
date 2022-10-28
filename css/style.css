@@ -6,7 +6,7 @@
 }
 
 header{
-    height: 80px;
+    height: 100px;
     background-color: black;
     position: fixed;
     top: 0;
@@ -47,8 +47,10 @@ header{
 
 main{
     margin-top: 100px;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 180px);
     overflow: scroll;
+    width: 100%;
+    background-color: black;
     
 }
 
@@ -66,11 +68,12 @@ main{
 }
 
 .square{
-    width: 220px;
+    width: 250px;
     height: 150px;
     background-color: red;
     border: 1px solid black;
-    margin: 3px;
+    margin: 2px;
+
 }
 
 .bottom-bar{
@@ -88,24 +91,21 @@ main{
     display: flex;
     
     
+    
 }
 
 
 
 .col20{
-    width: 50%;
-    height: 70px;
+    width: 10%;
     padding: 10px 10px;
     display: flex;
-    
-    
-
 }
 
 .col80-bottom{
-    width: 50%;
-    height: 70px;
+    width:90%;
     display: flex;
+    justify-content: center;
     
     
 }
@@ -114,15 +114,31 @@ main{
 i{
     margin-bottom: 10px;
     color: white;color: white;
-    margin-left: 40px;
+    padding: 0 20px;
     margin-top: 20px
     
 }
 
-.end-meeting{
+.meeting{
     color: red;
-    text-align: right;
+    background-color: grey;
+    padding: 30px;
+
+    
 }
+
+.mic, .camera{
+    color: white;
+    padding-left: 10px 10px;
+}
+
+.mic p{
+    text-align: center;
+}
+
+
+
+
 
 
 
