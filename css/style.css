@@ -13,29 +13,22 @@ header{
     left: 0;
     width: 100%;
     z-index: 1;
-    
-    
 }
 
-.container-header{
-    width: 100%
 
-}
 
 .row {
     width: 100%;
-    display: flex;
-
+  
 }
 
-.col-20{
-    width: 100%;
 
-}
 
 .header-content{
-    text-align: right;
     padding: 20px 10px;
+    text-align: end;
+
+    
 }
 
 .arrows, .grid-text{
@@ -54,7 +47,6 @@ header{
 
 main{
     margin-top: 100px;
-    width: 100vw;
     height: calc(100vh - 160px);
     overflow: scroll;
     
@@ -88,8 +80,50 @@ main{
     position: fixed;
     left: 0;
     bottom: 0;
+    
 
 }
+
+.container-bottom{
+    display: flex;
+    
+    
+}
+
+
+
+.col20{
+    width: 50%;
+    height: 70px;
+    padding: 10px 10px;
+    display: flex;
+    
+    
+
+}
+
+.col80-bottom{
+    width: 50%;
+    height: 70px;
+    display: flex;
+    
+    
+}
+
+
+i{
+    margin-bottom: 10px;
+    color: white;color: white;
+    margin-left: 40px;
+    margin-top: 20px
+    
+}
+
+.end-meeting{
+    color: red;
+    text-align: right;
+}
+
 
 
 
