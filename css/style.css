@@ -100,12 +100,15 @@ main{
     width: 10%;
     padding: 10px 10px;
     display: flex;
+    color: white;
+    
 }
 
 .col80-bottom{
     width:90%;
     display: flex;
     justify-content: center;
+    color: white;
     
     
 }
@@ -113,7 +116,6 @@ main{
 
 i{
     margin-bottom: 10px;
-    color: white;color: white;
     padding: 0 20px;
     margin-top: 20px
     
@@ -127,12 +129,10 @@ i{
     
 }
 
-.mic, .camera{
-    color: white;
-    padding-left: 10px 10px;
-}
 
-.mic p{
+
+.icon{
+    padding: 0 10px;
     text-align: center;
 }
 
