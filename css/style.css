@@ -51,12 +51,15 @@ main{
     overflow: scroll;
     width: 100%;
     background-color: black;
+
     
 }
 
 .container-main{
     width: 80%;
     margin: 0 auto;
+
+    
 }
 
 
@@ -70,9 +73,18 @@ main{
 .square{
     width: 250px;
     height: 150px;
-    background-color: red;
-    border: 1px solid black;
-    margin: 2px;
+    position: relative;
+
+
+}
+
+.pincopallo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(115, 110, 110);
 
 }
 
@@ -114,7 +126,7 @@ main{
 }
 
 
-i{
+.col20 i{
     margin-bottom: 10px;
     padding: 0 20px;
     margin-top: 20px
@@ -131,7 +143,7 @@ i{
 
 
 
-.icon{
+.col20,.icon{
     padding: 0 10px;
     text-align: center;
 }
