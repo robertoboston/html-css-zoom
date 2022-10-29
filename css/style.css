@@ -49,7 +49,6 @@ main{
     margin-top: 100px;
     height: calc(100vh - 180px);
     overflow: scroll;
-    width: 100%;
     background-color: black;
 
     
@@ -94,6 +93,8 @@ main{
 
 }
 
+/* footer  */
+
 .bottom-bar{
     height: 100px;
     background-color: black;
@@ -107,8 +108,7 @@ main{
 
 .container-bottom{
     display: flex;
-    
-    
+
     
 }
 
@@ -128,9 +128,8 @@ main{
     justify-content: center;
     align-items: center;
     color: white;
+    
 
-    
-    
 }
 
 
@@ -151,10 +150,16 @@ main{
 
 
 
-.col20,.icon{
+.col20, .icon{
     padding: 0 10px;
     text-align: center;
 }
+
+.icon{
+    margin: 5px;
+}
+
+
 
 
 
