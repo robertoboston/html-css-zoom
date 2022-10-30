@@ -8,11 +8,8 @@
 header{
     height: 100px;
     background-color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
-    z-index: 1;
+   
 }
 
 
@@ -46,19 +43,16 @@ header{
 /* main  */
 
 main{
-    margin-top: 100px;
-    height: calc(100vh - 180px);
-    overflow: scroll;
+    height: calc(100vh - 200px);
+    width: 100vw;
+    overflow: auto;
     background-color: black;
-
     
 }
 
 .container-main{
     width: 80%;
     margin: 0 auto;
-
-    
 }
 
 
@@ -99,11 +93,7 @@ main{
     height: 100px;
     background-color: black;
     width: 100%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
     
-
 }
 
 .container-bottom{
