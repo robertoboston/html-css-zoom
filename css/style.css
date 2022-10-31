@@ -87,6 +87,10 @@ main{
 
 }
 
+.container-main i{
+    font-size: 10px;
+}
+
 /* footer  */
 
 .bottom-bar{
@@ -129,6 +133,7 @@ i{
     padding: 0 10px;
     
     
+    
 }
 
 .meeting{
@@ -139,6 +144,10 @@ i{
 
 .icon{
     margin: 10px;
+}
+
+.bottom-bar i{
+    font-size: 30px;
 }
 
 
