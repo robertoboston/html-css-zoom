@@ -43,7 +43,7 @@ header{
 /* main  */
 
 main{
-    height: calc(100vh - 200px);
+    height: calc(100vh - 180px);
     width: 100vw;
     overflow: auto;
     background-color: black;
@@ -94,8 +94,8 @@ main{
 /* footer  */
 
 .bottom-bar{
-    height: 100px;
-    background-color: black;
+    height: 80px;
+    background-color: rgb(96, 90, 90);
     width: 100%;
     
 }
@@ -109,15 +109,18 @@ main{
 
 .col20{
     width: 10%;
-    padding: 10px 10px;
     display: flex;
     color: white;
     text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+    
     
 }
 
 .col80-bottom{
-    width:90%;
+    width:80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,9 +151,7 @@ i{
     font-size: 25px;
 }
 
-.camera{
-    width: 70px;
-}
+
 
 
 
