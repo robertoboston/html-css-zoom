@@ -139,7 +139,6 @@ i{
 
 .meeting{
     color: red;
-    background-color: grey;
     padding: 30px;
 }
 
@@ -149,6 +148,10 @@ i{
 
 .bottom-bar i{
     font-size: 25px;
+}
+
+.background-color-grey{
+    background-color: rgb(130, 123, 123);
 }
 
 
